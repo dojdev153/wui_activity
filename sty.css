@@ -1,0 +1,71 @@
+.field1{
+    width: 50rem ;
+    margin-left: 15rem;
+    background-color: rgba(0,255,0, 0.5);
+}
+.field2{
+    width: 50rem;
+    margin-left: 15rem;
+    background-color: rgba(0,255,0, 0.5);
+}
+.field3{
+    width: 50rem;
+    margin-left: 15rem;
+    background-color: rgba(0,255,0, 0.5);
+}
+h1{
+    margin-left: 25rem;
+}
+.sect{
+    background-color: rgb(35, 180, 35);
+    border-radius: 1rem;
+    box-shadow: 4px 4px grey;
+    height: 4.9rem;
+}
+.container{
+    background-color: rgb(130, 241, 130);
+    background-image: url(Graduation_StudentsGroup_Smiling_Outdoor_GettyImages-907837926.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+    box-shadow: 4px 4px grey;
+}
+.navlinks{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    text-align: center;
+    margin:auto;
+}
+.home{
+    margin-right: 2rem;
+}
+.sect2{
+    
+    background-color: rgba(0, 0, 250, 0.3);
+}
+.bottom{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    z-index: calc(50% -50%);
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    margin-left: 6rem;
+    align-items: center;
+    transform: translate(10%, 1rem);
+    font-size: 2rem;
+}
+.div1{
+    transform: translate(10%, -55%);
+}

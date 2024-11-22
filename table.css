@@ -1,0 +1,40 @@
+body{
+    padding-left: 12rem;
+    padding-top: 7rem;
+    padding-right: 9rem;
+    justify-content: center;
+    background-color: rgba(63, 61, 61, 0.5);
+}
+table{
+    height: 20rem;
+    background-color: rgba(226, 243, 226, 0.7);
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.7);
+    
+}
+.tr1{
+
+    background-image: url(R.jpg);
+    background-size: cover;
+    height: 3rem;
+}
+.h1{
+    background-color: rgba(0,0,0,0.5);
+}
+.tr7{
+    background-image: url(R.jpg);
+}
+.h2{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.tr2{
+    background-color: rgba(0, 255, 0, 0.6);
+}
+.tr3{
+    background-color: rgba(125, 235, 189, 0.363);
+}
+.tr4{
+    background-color:rgba(0, 255, 0, 0.6) ;
+}
+.tr5{
+    background-color: rgba(125, 235, 189, 0.363); 
+}

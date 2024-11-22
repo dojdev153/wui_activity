@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+<header>
+<section class="sect">
+    <nav class="navbar">
+        <div>           
+                <a href="#home" style="text-decoration: none; margin-right: 6rem;" class="home">home</a>
+                <a href="#about" style="text-decoration: none;" class="about">about</a>
+                <a href="#menu" style="text-decoration: none; margin-left: 4rem;" class="menu">menu</a>
+        </div>
+    </nav>
+    <div class="div1" style="background-image: url(R.jpg); width: 80px; height: 80px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-weight: bolder;color: blue; font-family: Arial, Helvetica, sans-serif; ">APPLIN</div>
+</section>
+</header>
+<div class="container">
+    <h1>student application form</h1>
+    <form action="tablewui.php" method="POST">
+    <fieldset class="field1">
+        <legend><h3>personal inforamtion</h3></legend>
+        <label for="fname">first name: <input type="text" id="fname" placeholder="first name" name="fname"></label> &nbsp; <label for="lname">last name: <input type="text" id="lname" name="lname" placeholder="last name" ></label><br><br>
+        <label for="dateo">date of birth: <input type="date" id="dateo" name="dateo"></label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <label for="location">location: <input type="text" id="location" name="location" placeholder="your location" ></label><br><br>
+        <label for="email">email: <input type="email" id="email" name="email" placeholder="example@gmail.com"></label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <label for="password">password: <input type="password" id="password" name="password" placeholder="password" ></label> <br><br>
+        <label for="phone">phone number: <input type="tel" id="phone" name="tel"></label> <br><br>
+        <label for="prof">upload your profile picture</label><br> 
+         <input type="file" name="prof" accept=".jpg, .png"><br><br>
+    </fieldset><br><br>
+    <fieldset class="field2">
+        <legend><h3>languages</h3></legend>
+        <label for="rate">rate your english language (1 to 10): <input type="range" min="1" max="10" id="rate" name="rate"></label><br><br>
+        <label for="lang">select languages that you are better at <br>
+           <label for="english">english</label> <input type="checkbox" value="english" name="eng"><br>
+           <label for="french">french &nbsp;</label><input type="checkbox" value="french" name="fre"><br>
+           <label for="swahili">swahili</label><input type="checkbox" value="swahili" name="swa"><br>
+        </label>
+        <label for="gend">select your gender <br>
+           <label for="gend">male <input type="radio" name="gend" value="male" ></label>
+           <label for="gend">female <input type="radio" name="gend" value="female"></label>
+        </label><br><br>
+        <select name="cont" id="" name="cont">
+            <option value="">in which continent do you live in</option>
+            <option value="asia">asia</option>
+            <option value="africa">africa</option>
+            <option value="america">america(south or north)</option>
+            <option value="oceania">oceania</option>
+        </select><br><br>
+    </fieldset><br><br>
+    <fieldset class="field3">
+        <legend><h3>writting</h3></legend>
+        <label for="" style="font-style: italic;">from the following topics shoose one that you can write about as essay(this is to test your thinking capabilities) </label><br><br>
+        <label for="">what career are you pursuing as your continue studying</label><input type="radio" name="topics"><br>
+        <label for="">why are you applying to our college</label><input type="radio" name="topics"><br>
+        <textarea name="" id="" style="width: 15rem;" name="essay"></textarea><br><br>
+        <button type="submit" name="submit">submit</button>
+    </fieldset>   
+    </form>
+    <section class="sect2">
+    <div class="bottom">        
+        <h5>[contact]</h5>
+        <h5>[All rights reserved]</h5>
+        <h5>[privacy]</h5>
+        <h5>[emergency info]</h5>
+        <h5>[feedback]</h5>
+        <footer style="font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif; color: blue;">applin.com</footer>
+    </div>
+
+    </section>
+</div>
+</body>
+</html>
